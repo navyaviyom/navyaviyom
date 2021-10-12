@@ -1,0 +1,25 @@
+
+# myorg.test4.loan_validation.test23.Error
+myorg.test4.loan_validation.test23.Error#concept.label = Output error
+myorg.test4.loan_validation.test23.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = a new {Output error} where {0, code} {1, message} 
+myorg.test4.loan_validation.test23.Error.code#phrase.action = set the code of {this} to {code}
+myorg.test4.loan_validation.test23.Error.code#phrase.navigation = {code} of {this}
+myorg.test4.loan_validation.test23.Error.message#phrase.action = set the message of {this} to {message}
+myorg.test4.loan_validation.test23.Error.message#phrase.navigation = {message} of {this}
+
+# myorg.test4.loan_validation.test23.Input
+myorg.test4.loan_validation.test23.Input#concept.label = ML model input
+myorg.test4.loan_validation.test23.Input.Input(java.lang.String)#phrase.navigation = a new {ML model input} where {0, input} 
+myorg.test4.loan_validation.test23.Input.input#phrase.action = set the input of {this} to {input}
+myorg.test4.loan_validation.test23.Input.input#phrase.navigation = {input} of {this}
+
+# myorg.test4.loan_validation.test23.Output
+myorg.test4.loan_validation.test23.Output#concept.label = ML model output
+myorg.test4.loan_validation.test23.Output.Output(java.lang.String)#phrase.navigation = a new {ML model output} where {0, output} 
+myorg.test4.loan_validation.test23.Output.error#phrase.action = set the error of {this} to {error}
+myorg.test4.loan_validation.test23.Output.error#phrase.clearer = clear the error of {this}
+myorg.test4.loan_validation.test23.Output.error#phrase.navigation = {error} of {this}
+myorg.test4.loan_validation.test23.Output.inError()#phrase.navigation = {this} is in error
+myorg.test4.loan_validation.test23.Output.output#phrase.action = set the output of {this} to {output}
+myorg.test4.loan_validation.test23.Output.output#phrase.navigation = {output} of {this}
+myorg.test4.loan_validation.test23.Output.run(myorg.test4.loan_validation.test23.Input)#phrase.navigation = predict({0})

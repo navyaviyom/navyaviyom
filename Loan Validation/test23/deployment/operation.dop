@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="test23">
+  <name>test23</name>
+  <uuid>ce839587-7092-4364-884b-d9bd6ca4838b</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#4d3ba375-767d-47d0-8d0a-cacec397350a"/>
+  <targetRuleProject href="../../test23#5d4eec55-4db6-472d-9dd1-85996150a1d7"/>
+  <tags key="ProviderType">
+    <value><![CDATA[OPS]]></value>
+  </tags>
+  <tags key="ProviderId">
+    <value><![CDATA[disconnectedProvider]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>
